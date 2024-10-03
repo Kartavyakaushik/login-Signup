@@ -16,7 +16,7 @@ export class LoginSingupComponent {
   activeForm : 'login' | 'register' = 'login';
   registerObj:registerModel = new registerModel();
   loginObj: loginModel = new loginModel();
-
+ 
   constructor(private _snackbar:MatSnackBar, private _router: Router){}
 
   toggleForm(form : 'login' | 'register')
